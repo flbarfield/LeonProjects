@@ -1,0 +1,132 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+@media screen and (max-width: 760px) {
+  nav ul {
+    display: none;
+  }
+
+  nav img {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  color: white;
+  background-color: blue;
+  width: 70px;
+  text-align: center;
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* HEADER */
+header {
+  background-color:aliceblue;
+  height: 50px;
+  width: 100%;
+}
+
+
+nav img {
+  width: 30%;
+  float: left;
+}
+nav ul {
+  float: left;
+  width: 50%;
+}
+
+nav ul li {
+  float: left;
+  display: block;
+  padding-right: 20px;
+}
+
+nav ul + ul {
+  width: 10%;
+}
+.navButton {
+  float: left;
+  text-align: center;
+}
+
+/* SECTION ONE */
+section {
+  width: 100%;
+  height: 300px;
+  background-color:aliceblue;
+}
+
+.sectionOne section{
+  width: 50%;
+  float: left;
+}
+
+.sectionOne section + section {
+  width: 50%;
+  float: left;
+}
+
+.sectionOne input {
+  float: left;
+  margin-right: 2px;
+}
+.sectionOne a {
+  float: left;
+}
+
+.sectionOne p {
+  float: left;
+}
+
+/* SECTION TWO */
+.sectionTwo {
+  width: 25%;
+  height: 180px;
+  float: left;
+}
+
+/* SECTION THREE */
+.sectionThree {
+  background-color: whitesmoke;
+  height: 200px;
+  float: left;
+}
+
+.sectionThree > * {
+  width: 60%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

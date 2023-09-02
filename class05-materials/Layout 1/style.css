@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+header, section, footer {
+    border: 1px solid black;
+    float: left;
+}
+
+header, footer {
+    height: 130px;
+    width: 100%;
+    background-color: pink;
+}
+
+.top {
+    width: 33.33%;
+    height: 150px;
+}
+
+.bottom {
+    width: 50%;
+    height: 200px;
+}
+
+@media screen and (max-width: 400px) {
+    .top, .bottom {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media (min-width: 900px) {
+    .top, .bottom {
+        height: 350px;
+    }
+}

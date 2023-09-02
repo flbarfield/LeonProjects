@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    border: 3px solid black;
+    float: left;
+}
+
+section {
+    background-color: purple;
+    width: 33.33%;
+    height: 300px;
+    float: left;
+}
+
+#Two {
+    background-color: limegreen;
+}
+
+#Three {
+    background-color: orange;
+}
+
+footer {
+    background-color: blue;
+}

@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;
+    border: 5px solid green;
+    margin: 30px 20px;
+    color: white;
+}
+
+img {
+    width: 200px;
+    object-position: 50% 100%;
+    float: right;
+}
+
+h1 {
+    font-size: large;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+ul {
+    position: 50%;
+} 
+
+ul li {
+    display: inline-block;
+    font-weight: bolder;
+    text-align: center;
+}
+
+li {
+    color: black;
+}
+
+li a {
+    color: green;
+}
+
+span{
+    color: white;
+}

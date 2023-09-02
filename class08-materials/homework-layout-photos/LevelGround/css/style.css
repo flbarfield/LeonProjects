@@ -1,0 +1,179 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+a {
+  text-decoration: none;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/**** NAVIGATION ****/
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color:cadetblue;
+  float: left;
+}
+
+nav ul li{
+  float: left;
+  height: 20px;
+  list-style: none;
+  width: 75px;
+}
+
+nav a {
+  color: white;
+}
+
+.navLeft {
+ width: 45%;
+}
+
+.navCenter {
+  width: 5%;
+}
+
+.navRight {
+  float: right;
+}
+
+nav img {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0 auto;
+}
+
+
+
+
+/**** MAIN ****/
+.topSect {
+  height: 400px;
+  background-color: cadetblue;
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: white;
+}
+
+.topSect h1, .topSect p {
+  width: 70%;
+  margin: 50px auto;
+}
+
+.topSect h1 {
+  font-size: 50px;
+}
+
+.topSect p {
+  font-size: 20px;
+}
+
+/* WHY */
+.sectTwo {
+  width: 100%;
+  height: 200px;
+  float: left;
+  text-align: center;
+  margin: 50px 0 40px 0;
+}
+
+.sectTwo h1, .sectTwo p {
+  width: 100%;
+  padding: 0 30%;
+}
+
+ /* DOUBLE IMAGE SECTION, SECTION 3 */
+.sectThree {
+  width: 100%;
+  height: 530px;
+  float: left;
+  background-color: lightgray;
+}
+
+section .columnOne, section .columnTwo {
+  width: 35%;
+  float: left;
+  height: 400px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+.columnOne {
+  margin-left: 10%;
+  margin-right: 10%;
+  float: left;
+}
+
+.columnTwo {
+  margin-right: 10%;
+  float: left;
+}
+
+section img {
+  width: 320px;
+  height: 190px;
+}
+
+/* FOURTH SECTION, VOLUNTEER */
+.sectFour {
+  width: 100%;
+  height: 250px;
+  float: left;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.sectFour h3, .sectFour p, .secFour a{
+  width: 100%;
+  padding: 0 30%;
+}
+
+.sectfour a {
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  float: left;
+  height: 160px;
+  background-color: black;
+  color: white;;
+}
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
