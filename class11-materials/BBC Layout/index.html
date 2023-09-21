@@ -6,42 +6,50 @@
   	<meta name="keywords" content="one, two, three">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Blank Template</title>
+		<title>BBC for Cats</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<header>
-			<nav>
-				<img src="#" alt="bbc logo">
-				<a href="#">Sign In</a>
-				<ul>
-					<li><a href="#">News</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">News</a></li>
-				</ul>
-				<form action="">
-					<input type="text">
-				</form>
-			</nav>
-		</header>
+		<nav>
+			
+			<ul>
+				<li class="bbcLogo"><img src="Images\BBC_Logo.png" alt="bbc logo"></li>
+				<li class="signIn"><a href="#" >Sign In</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Sport</a></li>
+				<li><a href="#">Reel</a></li>
+				<li><a href="#">Worklife</a></li>
+				<li><a href="#">Travel</a></li>
+				<li><a href="#">Future</a></li>
+				<li><a href="#">Culture</a></li>
+				<li>
+					<select name="more">
+						<option value="">More</option>
+						<option value="">More</option>
+						<option value="">More</option>
+						<option value="">More</option>
+					</select>
+				</li>
+				<input type="text" placeholder="Search">
+			</ul>
+		</nav>
+		
 		<main>
-			<h2>Welcome BBC.com</h2>
-			<section>
-				<img src="#" alt="two people">
-				<h1>Historic Peace Deal</h1>
+			<section class="introStrip">
+				<span class="intSpanLeft">Welcome to BBC.com</span>
+				<span class="intSpanRight">Thursday, 13 August</span>
+			</section>
+			<section class="topLeft">
+				<!-- <img src="#" alt="two people"> -->
+				<h1>Isael and UAE strike Historic peace deal</h1>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 				<span>Middle East</span>
 			</section>
-			<section>
+			<section class="topRight">
 				<section>
 					<h3>Americans go home....</h3>
 					<span>CANADA</span>

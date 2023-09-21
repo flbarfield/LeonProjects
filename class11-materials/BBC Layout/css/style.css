@@ -1,0 +1,80 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/***NAVIGATION***/
+nav, nav > * {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  max-height: 3rem;
+  background-color: black;
+  color: white;
+}
+
+/* .bbcLogo {
+  background-image: url('../Images/BBC_Logo.png');
+  object-fit: contain;
+  width: 500px;
+} */
+
+/* nav img {
+  width: auto;
+} */
+
+nav > *, nav ul > li {
+  font-size: 1.8rem;
+}
+
+li {
+  list-style: none;
+  border-left: 0.1rem solid white;
+  border-right: 0.1rem solid white;
+} 
+
+li:hover {
+  background-color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 0 2rem;
+}
+
+select {
+  width: 12rem;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
